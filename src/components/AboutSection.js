@@ -11,6 +11,7 @@ import {
   photoAnimation,
   pageAnimation,
 } from "../animation";
+import Wave from "./Wave";
 
 const AboutSection = () => {
   return (
@@ -38,6 +39,7 @@ const AboutSection = () => {
       <Image>
         <motion.img variants={photoAnimation} src={home1} alt="home image" />
       </Image>
+      <Wave />
     </About>
   );
 };
