@@ -17,8 +17,8 @@ import {
   movieContainer,
   slider,
 } from "../animation";
-
 import Work2 from "./Work2";
+import ScrollTop from "../components/ScrollTop";
 
 const OurWork = () => {
   return (
@@ -49,6 +49,7 @@ const OurWork = () => {
         </Link>
       </Movie>
       <Work2 />
+      <ScrollTop />
     </Work>
   );
 };
@@ -59,6 +60,9 @@ const Work = styled(motion.div)`
   padding: 2.5rem 10rem;
   h2 {
     padding: 1rem 0rem;
+  }
+  @media (max-width: 1000px) {
+    padding: 1rem 1rem;
   }
 `;
 
@@ -73,6 +77,10 @@ const Movie = styled(motion.div)`
     width: 100%;
     height: 70vh;
     object-fit: cover;
+  }
+
+  @media (max-width: 1000px) {
+    padding-bottom: 4rem;
   }
 `;
 const Hide = styled.div`

@@ -50,7 +50,7 @@ export const lineAnimation = {
   hidden: { width: "0%" },
   show: {
     width: "100%",
-    transition: { duration: 1 },
+    transition: { duration: 0.75 },
   },
 };
 
@@ -85,7 +85,7 @@ export const movieContainer = {
     transition: {
       staggerChildren: 0.15,
       ease: "easeOut",
-      duration: 1,
+      duration: 0.75,
       when: "beforeChildren",
     },
   },

@@ -73,6 +73,9 @@ const Movie = styled(motion.div)`
     height: 70vh;
     object-fit: cover;
   }
+  @media (max-width: 1000px) {
+    padding-bottom: 4rem;
+  }
 `;
 
 const Hide = styled.div`
