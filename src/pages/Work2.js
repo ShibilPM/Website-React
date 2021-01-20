@@ -18,37 +18,37 @@ import {
   slider,
 } from "../animation";
 
-import Work2 from "./Work2";
-
-const OurWork = () => {
+const Work2 = () => {
+  const [element, controls] = useScroll();
+  const [element2, controls2] = useScroll();
   return (
-    <Work
-      style={{ background: "#fff" }}
-      variants={pageAnimation}
-      exit="exit"
-      initial="hidden"
-      animate="show"
-    >
-      <motion.div variants={sliderContainer}>
-        <Frame1 variants={slider}></Frame1>
-        <Frame2 variants={slider}></Frame2>
-        <Frame3 variants={slider}></Frame3>
-        <Frame4 variants={slider}></Frame4>
-      </motion.div>
-      <Movie variants={movieContainer}>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+    <Work>
+      <Movie
+        transition={{ duration: 0.5 }}
+        ref={element}
+        variants={movieContainer}
+        animate={controls}
+        initial="hidden"
+      >
+        <h2>The Racer</h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/work/the-athlete">
-          <Hide>
-            <motion.img
-              variants={photoAnimation}
-              src={athelete}
-              alt="athlete"
-            />
-          </Hide>
+        <Link to="/work/the-racer">
+          <img src={theracer} alt="the-race" />
         </Link>
       </Movie>
-      <Work2 />
+      <Movie
+        transition={{ duration: 0.5 }}
+        ref={element2}
+        variants={movieContainer}
+        animate={controls2}
+        initial="hidden"
+      >
+        <h2>Good Times</h2>
+        <motion.div variants={lineAnimation} className="line"></motion.div>
+        <Link to="/work/good-times">
+          <img src={goodtimes} alt="good-times" />
+        </Link>
+      </Movie>
     </Work>
   );
 };
@@ -56,12 +56,11 @@ const OurWork = () => {
 const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
-  padding: 2.5rem 10rem;
+
   h2 {
     padding: 1rem 0rem;
   }
 `;
-
 const Movie = styled(motion.div)`
   padding-bottom: 10rem;
   .line {
@@ -75,6 +74,7 @@ const Movie = styled(motion.div)`
     object-fit: cover;
   }
 `;
+
 const Hide = styled.div`
   overflow: hidden;
 `;
@@ -105,4 +105,4 @@ const Frame4 = styled(Frame1)`
   opacity: 1000;
 `;
 
-export default OurWork;
+export default Work2;
