@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://ShibilPM.github.io/Website-React",
+=======
+  "homepage": "http://ShibilPM.github.io/Website-React",
+>>>>>>> fix
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
