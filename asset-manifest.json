@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Website-React/static/js/main.228fd683.chunk.js",
-    "main.js.map": "/Website-React/static/js/main.228fd683.chunk.js.map",
+    "main.js": "/Website-React/static/js/main.89d6c366.chunk.js",
+    "main.js.map": "/Website-React/static/js/main.89d6c366.chunk.js.map",
     "runtime-main.js": "/Website-React/static/js/runtime-main.eb1821d2.js",
     "runtime-main.js.map": "/Website-React/static/js/runtime-main.eb1821d2.js.map",
     "static/js/2.1c0595fa.chunk.js": "/Website-React/static/js/2.1c0595fa.chunk.js",
@@ -12,20 +12,20 @@
     "static/js/2.1c0595fa.chunk.js.LICENSE.txt": "/Website-React/static/js/2.1c0595fa.chunk.js.LICENSE.txt",
     "static/media/athlete-small.9c7a85d4.png": "/Website-React/static/media/athlete-small.9c7a85d4.png",
     "static/media/athlete2.b216a5ad.png": "/Website-React/static/media/athlete2.b216a5ad.png",
-    "static/media/clock.4b7cde7e.svg": "/Website-React/static/media/clock.4b7cde7e.svg",
-    "static/media/diaphragm.db801491.svg": "/Website-React/static/media/diaphragm.db801491.svg",
+    "static/media/clock.ddec723d.svg": "/Website-React/static/media/clock.ddec723d.svg",
+    "static/media/diaphragm.fb1e5b13.svg": "/Website-React/static/media/diaphragm.fb1e5b13.svg",
     "static/media/good-times2.4ea1be17.jpg": "/Website-React/static/media/good-times2.4ea1be17.jpg",
     "static/media/goodtimes-small.94ab060d.png": "/Website-React/static/media/goodtimes-small.94ab060d.png",
     "static/media/home1.9836de69.png": "/Website-React/static/media/home1.9836de69.png",
     "static/media/home2.a65a4256.png": "/Website-React/static/media/home2.a65a4256.png",
-    "static/media/money.72da7c48.svg": "/Website-React/static/media/money.72da7c48.svg",
-    "static/media/teamwork.aa71db2e.svg": "/Website-React/static/media/teamwork.aa71db2e.svg",
+    "static/media/money.2e18c561.svg": "/Website-React/static/media/money.2e18c561.svg",
+    "static/media/teamwork.f9f4ff96.svg": "/Website-React/static/media/teamwork.f9f4ff96.svg",
     "static/media/the-racer2.580f15cd.jpg": "/Website-React/static/media/the-racer2.580f15cd.jpg",
     "static/media/theracer-small.51874213.png": "/Website-React/static/media/theracer-small.51874213.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eb1821d2.js",
     "static/js/2.1c0595fa.chunk.js",
-    "static/js/main.228fd683.chunk.js"
+    "static/js/main.89d6c366.chunk.js"
   ]
 }
